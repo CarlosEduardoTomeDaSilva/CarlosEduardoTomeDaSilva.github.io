@@ -81,6 +81,12 @@ h1 {
     font-weight: 100;
 }
 
+.link-style2 {
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
+
 #Foto {
     display: block;
     margin: 0 auto;
