@@ -1,0 +1,15 @@
+h2 {
+    color:green;  
+ }
+ body {
+     background-color: rgb(255, 400, 200);
+ }
+
+ #descrição_Cadu{
+     background-color: red;
+ }
+
+ #lista-descrição{
+     background-color: green;
+     color: white;
+ }
