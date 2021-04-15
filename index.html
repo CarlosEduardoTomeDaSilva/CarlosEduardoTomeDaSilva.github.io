@@ -3,10 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Meu Portifólio Web</title>
+    <style>
+        h2 {
+           color:green;  
+        }
+        body {
+            background-color: rgb(255, 400, 200);
+        }
+
+        #descrição_Cadu{
+            background-color: red;
+        }
+
+        .list-style{
+            background-color: green;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <h1>Quem Sou Eu?</h1>
-    <ul>
+    <ul class="list-style">
         <li> <a href="#Nome">Cabeçalho</a></li>
         <li> <a href="#Descrição">Breve descrição</a></li>
         <li> <a href="#Link">Link para o blog</a></li>
@@ -15,8 +32,8 @@
     <img id="Foto" width="200px" src="./Imagem Cadu.jpeg" alt="Foto do Cadu">
     <hr>
     <h2 id="Descrição">Breve descrição:</h2>
-    <p>Sou estudante de Desenvolvimento de Software na Tyrbe e Engenharia Mecatrônica na Facens. Gosto de muito de aprender coisas novas, sou autodidata e adoro problem solving. Sou brasileiro, residente atualmente em Sorocaba, São Paulo. Se quiser conhecer meu rosto clique <a href="#Foto">aqui</a></p>
-    <ul>
+    <p id="descrição_Cadu">Sou estudante de Desenvolvimento de Software na Tyrbe e Engenharia Mecatrônica na Facens. Gosto de muito de aprender coisas novas, sou autodidata e adoro problem solving. Sou brasileiro, residente atualmente em Sorocaba, São Paulo. Se quiser conhecer meu rosto clique <a href="#Foto">aqui</a></p>
+    <ul class="list-style">
         <li>Autodidata</li>
         <li>Bom líder</li>
         <li>Incentivo trabalhos colaboraivos</li>
