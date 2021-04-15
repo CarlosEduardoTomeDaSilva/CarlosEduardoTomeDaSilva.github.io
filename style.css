@@ -1,9 +1,19 @@
+#Nome {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+}
+
 h2 {
-    color:green;  
+    color:green;
+    text-align: center; 
  }
  body {
-     background-color: rgb(255, 400, 200);
- }
+     background-color: whitesmoke;
+     }
 
  #descrição_Cadu{
      background-color: red;
@@ -12,4 +22,18 @@ h2 {
  #lista-descrição{
      background-color: green;
      color: white;
+     font-family: monospace;
+     font-size: large;
+ }
+
+ #Foto {
+     display: block;
+     margin: 0 auto;
+     border-image: round;
+     border-image: 600px;
+ }
+
+ .list-style {
+     font-size: large;
+     font-family: monospace;
  }
